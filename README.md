@@ -39,7 +39,7 @@ Par exemple :
 
 Choisissez si vous voulez jouer ou passer avec "j" et "p".
 
-Pour jouer une carte tapez sa position (de 0 à longueur de la main - 1).
+Pour jouer une carte tapez sa position (de 0 à [longueur de la main - 1]).
 Pour jouer plusieurs cartes cartes tapez leurs positions séparées par des virgules.
 
 Exemple : 
@@ -51,7 +51,7 @@ En revanche, vous pouvez jouer les trois cartes de 6 puisque les cartes sont cô
 
 Après avoir passé votre tour, choisissez avec "y" ou "n" si vous souhaitez garder la carte piochée. De la même façon, choisissez avec "y" ou "n" si vous souhaitez garder la/les carte(s) jouée(s) précédemment lorsque vous jouez plus fort.
 
-Dans les deux cas, si vous souhaitez la/les conserver, vous devrez indiquer leur position (de 0 à longueur de votre main -1) d'insertion.
+Dans les deux cas, si vous souhaitez la/les conserver, vous devrez indiquer leur position (de 0 à [longueur de votre main -1]) d'insertion.
 
 Exemple :
 
