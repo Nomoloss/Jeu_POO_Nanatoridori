@@ -49,7 +49,7 @@ Votre main : [1, 5, 3, 6, 6, 6, 3, 1]
 Vous ne pouvez pas jouer la paire de 1 puisque les 2 cartes ne sont pas côte à côte. Taper "0,7" ne fera pas avancer le jeu. 
 En revanche, vous pouvez jouer les trois cartes de 6 puisque les cartes sont côte à côte. Pour cela, il faudra taper "3,4,5" ou "3,5,4" ou "5,4,3" etc (l'ordre n'importe pas).
 
-Après avoir passé votre tour, choisissez avec "y" (yes) ou "n" (no) si vous souhaitez garder la carte piochée. De la même façon, choisissez avec "y" ou "n" si vous souhaitez garder la/les carte(s) jouée(s) précédemment lorsque vous jouez plus fort.
+Après avoir passé votre tour, choisissez avec "y" (yes) ou "n" (no) si vous souhaitez ou non garder la carte piochée. De la même façon, choisissez avec "y" ou "n" si vous souhaitez ou non garder la/les carte(s) jouée(s) précédemment lorsque vous jouez plus fort.
 
 Dans les deux cas, si vous souhaitez la/les conserver, vous devrez indiquer leur position (de 0 à [longueur de votre main -1]) d'insertion.
 
