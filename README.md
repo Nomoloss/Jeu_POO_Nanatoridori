@@ -57,6 +57,6 @@ Exemple :
 
 Votre main : [2, 3, 6]
 
-Vous avez joué une paire de 4 sur une paire de 3 et vous avez décidé de récupérer la paire de 3 pour vous faire un triplet de 3.
+Vous avez joué une paire de 4 sur une paire de 3 et vous avez décidé de récupérer la paire de 3 pour vous constituer un triplet de 3 dans votre main.
 
 Tapez 1 et votre main deviendra : [2, 3, 3, 3, 6]
