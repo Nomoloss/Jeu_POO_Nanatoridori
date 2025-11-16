@@ -92,7 +92,7 @@ class Joueur:
             print(f"\n---------------------------------------\nLe joueur {self.numero} a perdu la manche, il perd une vie.\n\n")
         elif self.vies == 1:
             self.vies -= 1
-            print(f"\n---------------------------------------\nLe joueur {self.numero} a perdu la manche et la partie ! C'est un mauvais guide...")
+            print(f"\n---------------------------------------\nLe joueur {self.numero} a perdu la manche et la partie !")
     
     def en_vie(self):
         return self.vies > 0
@@ -145,7 +145,7 @@ class Joueur:
         positions = ""
         cartes = None
         while cartes == None:
-            positions = input(f"Position(s) de la (des) carte(s) à jouer ? (0 à {len(main_valeurs)-1}, séparées par des virgules sans espaces)\n(Si vous ne pouvez rien jouer, vous pouvez passer avec p) ").split(",")
+            positions = input(f"Position(s) de la (des) carte(s) à jouer ? (0 à {len(main_valeurs)-1}, séparées par des virgules sans espaces)\n(Si vous ne pouvez vraiment rien jouer, vous pouvez passer avec p) ").split(",")
             
             if positions==['p']:
                 table.compteur_passes+=1
@@ -172,7 +172,7 @@ class Joueur:
                 #Test 2 : toutes les cartes de même valeur ? 
                 for i in positions[1:]:
                     if main_valeurs[i] != val:
-                        print("Valeur différente de la précédente")
+                        print("Cartes de valeurs différentes")
                         cartes = None
                 
                 #Test 3 : valeur supérieure à celle sur la table ?
@@ -298,6 +298,7 @@ if __name__=="__main__":
                 Joueur_actuel.retire_vie()    
             else:            
                 print(f"---------------------------------------\nAu tour du joueur {Joueur_actuel.numero}\n---------------------------------------")
+                input("Appuyer sur Entrée")
                 Joueur_actuel.tour_de_jouer(table, pioche, len(Joueurs_en_jeu))
             
                 if Joueur_actuel.main==[]:
@@ -306,5 +307,8 @@ if __name__=="__main__":
                         num_joueur+=1
                 else:        
                     num_joueur+=1
+            
+            input("Appuyez sur Entrée")
+            print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
                     
     print("-------------------------------\n#    Fin du jeu\n-------------------------------")
